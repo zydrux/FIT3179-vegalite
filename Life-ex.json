@@ -4,7 +4,7 @@
   "height": 600,
   "layer":[
     {
-      "projection":{"type": "equalEarth"},
+      "projection":{"type": "mercator"},
       "data": {
         "url": "https://raw.githubusercontent.com/zydrux/FIT3179-vegalite/main/custom.geo%20(1).json",
         "format":{
