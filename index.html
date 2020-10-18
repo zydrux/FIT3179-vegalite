@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Multiple Visualisations | An Example</title>
+  <title>Life expectency</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
@@ -55,10 +55,11 @@
         <h1>Global Life Expectency</h1>
         <p>This map illustrates the shows the life expectency of countries in 2000 according to WHO.</p>
       </div>
+       <div class="pure-u-2-3">
+        <div id="vis" class="vis-container"></div>
+       </div>
     </div>
-<div class="pure-u-2-3">
-<div id="vis1" class="vis-container"></div>
-</div>
+
 <script type="text/javascript">
   var spec = "https://zydrux.github.io/FIT3179-vegalite/Life-ex.json";
   vegaEmbed('#vis', spec).then(function(result) {
